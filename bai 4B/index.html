@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <form action="xulydangki.html" method="POST">
+        <table width="400" border="2" cellpadding="5" align="center">
+            <tr>
+                <th colspan="2">Sign up</th>
+            </tr>
+            <tr>
+                <td>Full name</td>
+                <td>
+                    <input type="text" name="fname" size="30" placeholder="Enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" name="user" size="30" placeholder="Enter your username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="text" name="pass" size="30" placeholder="Enter your password">
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm password</td>
+                <td>
+                    <input type="text" name="confirm" size="30" placeholder="Confirm your password">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label><input type="radio" name="gender" id="male">Male</label>
+                    <label><input type="radio" name="gender" id="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td>
+                    <select name="day">
+                        <option value="1">1</option>
+                    </select>
+                    <select name="month">
+                        <option value="1">1</option>
+                    </select>
+                    <select name="year">
+                        <option value="1">1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td>
+                    <input type="file" name="avatar">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    <label>
+                        <input type="checkbox" name="watchingmovie">Watching movie
+                    </label>
+                    <label>
+                        <input type="checkbox" name="playingsport">Playing sport
+                    </label>
+                    <label>
+                        <input type="checkbox" name="surfingtheweb">Surfing the web
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" name="reset" value="Reset">
+                    <input type="submit" name="submit" value="OK">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
