@@ -35,6 +35,15 @@
   display: flex;
 }
 
+#iframe {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 95%;
+}
+
 #info-1 {
   width: 10%;
   display: flex;
