@@ -43,6 +43,10 @@
   align-items: center;
 }
 
+progress::-moz-progress-bar {
+  background: #006666;
+}
+
 .heading {
   display: flex;
   align-items: center;
