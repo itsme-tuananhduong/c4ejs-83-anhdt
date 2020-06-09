@@ -16,21 +16,22 @@
 // let p = document.getElementById("li-3");
 // p.remove();
 
-// // bai 2
-// let button = document.getElementById("button");
-// button.addEventListener('click', function() {
-//     let pList = document.getElementById("playername-2");
-//     let p = `<li>Kante</li>`
-//     pList.innerHTML += p;
-// })
+// bai 2
+let button = document.getElementById("button");
+button.addEventListener('click', function() {
+    let pList = document.getElementById("playername-2");
+    let p = `<li>Kante</li>`
+    pList.innerHTML += p;
+})
     
-// // bai 3
-// let input = document.getElementById("input");
-// input.addEventListener('keypress', function(data) {
-//     if (data.key == "Enter") {
-//         let pList = document.getElementById("playername-2");
-//         let p = `<li id="add-player"></li>`;
-//         pList.innerHTML += p;
-//         document.getElementById("add-player").innerHTML = input.value;
-//     }
-// })
+// bai 3
+let input = document.getElementById("input");
+input.addEventListener('keypress', function(data) {
+    if (data.key == "Enter") {
+        let pList = document.getElementById("playername-2");
+        let x = input.value;
+        let p = `<li>${x}</li>`;
+        pList.innerHTML += p;
+        input.value = "";
+    }
+})
