@@ -29,8 +29,7 @@ let input = document.getElementById("input");
 input.addEventListener('keypress', function(data) {
     if (data.key == "Enter") {
         let pList = document.getElementById("playername-2");
-        let x = input.value;
-        let p = `<li>${x}</li>`;
+        let p = `<li>${input.value}</li>`;
         pList.innerHTML += p;
         input.value = "";
     }
