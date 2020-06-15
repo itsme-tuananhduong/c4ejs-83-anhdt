@@ -372,10 +372,10 @@ ol {
 
 #row-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
-#tabs {
+/* #tabs {
   display: flex;
   justify-content: space-between;
 }
@@ -387,7 +387,7 @@ ol {
 #list {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 .site-logo h2 {
   font-size: 36px;
@@ -483,7 +483,6 @@ ol {
 
 .social-section .social-link-warp h2 {
   display: inline-block;
-  float: right;
   font-weight: 400;
   padding-left: 30px;
   background: #f9f9f9;
