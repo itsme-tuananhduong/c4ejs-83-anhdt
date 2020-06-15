@@ -370,6 +370,25 @@ ol {
   background: #f2f7f8;
 }
 
+#row-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+
 .site-logo h2 {
   font-size: 36px;
 }
