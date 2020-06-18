@@ -17,12 +17,18 @@ h6 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
 }
+h1,
+h2 {
+  font-family: "GodOfWar", "Catamaran";
+}
 #top-header {
   font-size: medium;
   width: 50%;
   margin: auto;
+  font-family: "Catamaran";
 }
 .btn-xl {
+  font-family: "GodOfWar", "Catamaran";
   text-transform: uppercase;
   padding: 1.5rem 3rem;
   font-size: 0.9rem;
@@ -41,12 +47,14 @@ h6 {
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-custom .navbar-brand {
+  font-family: "GodOfWar", "Catamaran";
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
+  font-family: "GodOfWar", "Catamaran";
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 700;
@@ -117,29 +125,29 @@ header.masthead .bg-circle-4 {
   }
 }
 .bg-primary {
-  background-color: #e63900 !important;
+  background-color: #cc0000 !important;
 }
 .btn-primary {
-  background-color: #e63900;
+  background-color: #cc0000;
   border-color: #000000;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #e63900 !important;
+  background-color: #cc0000 !important;
   border-color: #000000 !important;
 }
 .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(238, 9, 28, 0.5);
 }
 .btn-secondary {
-  background-color: #e63900;
+  background-color: #cc0000;
   border-color: #000000;
 }
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color: #e63900 !important;
+  background-color: #cc0000 !important;
   border-color: #000000 !important;
 }
 .btn-secondary:focus {
