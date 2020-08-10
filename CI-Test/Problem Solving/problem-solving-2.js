@@ -3,7 +3,7 @@ while (check == 'y') {
     let s1 = prompt('Nhập vào xâu thứ nhất: '),
         s2 = prompt('Nhập vào xâu thứ hai: ');
     combineStrings(s1, s2);
-    check = prompt('Bạn có muốn tiếp tục không? (y/n)');
+    check = prompt('Bạn có muốn tiếp tục không? (y/n)').toLowerCase();
 }
 
 function combineStrings(s1, s2) {
@@ -22,8 +22,8 @@ function combineStrings(s1, s2) {
         s3 += smin[i];
         s3 += smax[i];
     }
-    temp = smax.splice(min, smax.length - 1);
-    console.log(temp);
+    temp = smax.splice(min, smax.length - 1).join("");
+    console.log(temp)
     s3 += temp;
     alert(s3);
 }
