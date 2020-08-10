@@ -90,8 +90,10 @@ button {
   border-radius: 5px;
 }
 
-.btn {
-  font-size: 25px;
+#btn1,
+#btn2,
+#btn3 {
+  font-size: 20px;
   padding-left: 10px;
   color: #262626;
 }
